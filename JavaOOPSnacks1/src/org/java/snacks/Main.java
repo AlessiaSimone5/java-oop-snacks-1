@@ -12,6 +12,11 @@ public class Main {
 		System.out.println(s.eta);
 		
 		System.out.println(s.getNomeCognomeEta());
+		
+		RegistroStudenti registro = new RegistroStudenti();
+		registro.addStudente(s);
+	
+
 	}
 
 }
