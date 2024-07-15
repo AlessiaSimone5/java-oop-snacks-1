@@ -16,6 +16,9 @@ public class RegistroStudenti {
 		}
 		nuovoRegistro[nuovoRegistro.length-1] = nuovoStudente;
 		
+		registroStudenti = nuovoRegistro;
+		
+		
 	}
 	
 	
