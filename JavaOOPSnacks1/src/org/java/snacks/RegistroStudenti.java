@@ -17,6 +17,13 @@ public class RegistroStudenti {
 		nuovoRegistro[nuovoRegistro.length-1] = nuovoStudente;
 		
 		registroStudenti = nuovoRegistro;
+	}
+	
+	public void stampaStudenti () {
+
+		for (int i=0; i < registroStudenti.length; i++) {
+			System.out.println(registroStudenti[i].getNomeCognomeEta());		
+		}
 		
 		
 	}
